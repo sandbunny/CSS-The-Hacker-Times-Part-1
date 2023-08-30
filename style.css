@@ -39,6 +39,7 @@ nav ul {
 nav li {
     display: inline-block;
     padding-right: 10px;
+    font-family: 'Source Sans Pro';
 }
 
 h2 {
@@ -64,14 +65,25 @@ main p {
 }
 
 .more-articles {
-text-align: center;
+text-align: justify;
 }
 
 .more-articles section {
     display: inline-block;
-    width: 44%;
+    width: 47%;
+    padding-right: 9px;
+    padding-left: 9px;
 }
 
 .more-articles img {
     width: 100%;
+}
+
+.more-articles h4 {
+ font-family: 'Roboto Slab', Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+p {
+    font-size: small;
+    font-family: 'Roboto Slab';
 }
